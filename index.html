@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>...WERDIS...  ( ͡° ͜ʖ ͡°)</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <header class="row justify-content-center">
+        <div id="headbox" class="justify-content-center">
+          <h1>WERDIS</h1>
+        </div>
+      </header><br><br>
+
+        <div class="row justify-content-center">
+            <div class="col-8">
+                <p id="search-title">Search for some lyrics, an artist or song title!</p>
+                    <div class="form-group row">
+                        <input id="lyrics-button" type="radio" name="search-type" value="lyrics" checked="checked">&nbsp;By Lyrics
+                        <div>&nbsp; &nbsp;</div>
+                        <input id="artist-button" type="radio" name="search-type" value="artist">&nbsp;By Artist<br>
+                        <div>&nbsp; &nbsp;</div>
+                        <input id="title-button" type="radio" name="search-type" value="title">&nbsp;By Song Title<br>
+                        <input class="form-control" id="search-input" type="text" placeholder="Put your search string here!">
+                    </div>
+                    <button class="btn btn-default" id="submit" type="submit">Submit</button>
+            </div>
+        </div><br>
+
+        <div class="row justify-content-center">
+            <div id="song-results" class="col-8"></div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div id="fun-buttons" class="col-8"></div>
+        </div>
+
+        <div class="row justify-content-center">
+            <textarea id="lyrics-display" class="col-4" rows="10" cols="10" placeholder="Lyrics show up here!"></textarea>
+            <textarea id="rhymes-display" class="col-7" rows="10" cols="10" placeholder="Rhymes show up here!"></textarea>
+        </div>
+
+
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/awesome.js"></script>
+
+</body>
+
+</html>
