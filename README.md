@@ -11,7 +11,7 @@ This project was created primarily for entertainment but also to learn and gain 
 The project was overall successful for the scope intended.
 
 ## Individual Responsibilities.
-This project was managed by Richard Kimzey (who came up with the original concept), and coded by Tom Elliott.
+This project was managed by Richard Kimzey (who came up with the original concept), and coded by Tom Elliott and Chase Cannon.
 
 ### Challenges
 Parsing the lyric string that is returned by the API call.
